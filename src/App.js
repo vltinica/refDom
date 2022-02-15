@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 import goodsArr from "./goods.json";
 import Goods from "./Goods";
+import Cart from "./Cart";
 
 class App extends React.Component {
   constructor() {
@@ -44,6 +45,7 @@ class App extends React.Component {
             />
           ))}
         </div>
+        <Cart />
       </div>
     );
   }
